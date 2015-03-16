@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reject & Notify v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-16 18:25:23+0000\n"
+"Last-Translator: admin <giuseppe.mazzapica@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "Reject & Notify"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "https://github.com/Giuseppe-Mazzapica/RejectNotify"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "Add a button to post edit page that allows to send a notice to a contributor whose a post was not approved."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "Giuseppe Mazzapica"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "http://gm.zoomlab.it"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: reject-and-notify.php:0
+#@ reject-notify
+msgid "1.0"
+msgstr ""
+
+#: src/FormCase.php:102
+#@ reject-notify
+msgid "Message:"
+msgstr ""
+
+#: src/FormCase.php:103
+#@ reject-notify
+msgid "Send"
+msgstr ""
+
+#: src/FormCase.php:106
+#, php-format
+#@ reject-notify
+msgid "Send reject mail to %s"
+msgstr ""
+
+#: src/FormCase.php:110
+#, php-format
+#@ reject-notify
+msgid "Sorry %s, your post %s was rejected."
+msgstr ""
+
+#: src/ListCase.php:82
+#@ reject-notify
+msgid "Rejected Status"
+msgstr ""
+
+#: src/ListCase.php:111
+#@ reject-notify
+msgid "Rejected"
+msgstr ""
+
+#: src/ListCase.php:112
+#@ reject-notify
+msgid "Needs Approval"
+msgstr ""
+
+#: src/PostCase.php:113
+#@ reject-notify
+msgid "Please wait..."
+msgstr ""
+
+#: src/PostCase.php:114
+#@ reject-notify
+msgid "Error on sending email."
+msgstr ""
+
+#: src/PostCase.php:116
+#@ reject-notify
+msgid "Debug info"
+msgstr ""
+
+#: src/PostCase.php:117
+#@ reject-notify
+msgid "Sender"
+msgstr ""
+
+#: src/PostCase.php:118
+#@ reject-notify
+msgid "Recipient"
+msgstr ""
+
+#: src/PostCase.php:119
+#@ reject-notify
+msgid "Email Content"
+msgstr ""
+
+#: src/PostCase.php:120
+#@ reject-notify
+msgid "Email Subject"
+msgstr ""
+
+#: src/PostCase.php:121
+#: src/PostCase.php:142
+#@ reject-notify
+msgid "Already rejected and notified."
+msgstr ""
+
+#: src/PostCase.php:122
+#@ reject-notify
+msgid "Ajax callback returned no or wrong data."
+msgstr ""
+
+#: src/PostCase.php:123
+#@ reject-notify
+msgid "Ajax call failed."
+msgstr ""
+
+#: src/PostCase.php:146
+#@ reject-notify
+msgid "Reject and Notify"
+msgstr ""
+
+#: src/SendCase.php:82
+#, php-format
+#@ reject-notify
+msgid "Your post on %s was rejected."
+msgstr ""
+
+#: src/SendCase.php:90
+#, php-format
+#@ reject-notify
+msgid "Email sent to %s!"
+msgstr ""
+
+#: src/SendCase.php:91
+#, php-format
+#@ reject-notify
+msgid "Error on sending email to %s"
+msgstr ""
+
+#: src/SendCase.php:105
+#@ reject-notify
+msgid "Wrong data error."
+msgstr ""
+
+#: src/SendCase.php:106
+#@ reject-notify
+msgid "Missing data error."
+msgstr ""
+
+#: src/SendCase.php:107
+#@ reject-notify
+msgid "Error on validating nonce."
+msgstr ""
+
+#: src/SendCase.php:108
+#@ reject-notify
+msgid "Invalid recipient mail."
+msgstr ""
+
+#: src/SendCase.php:109
+#@ reject-notify
+msgid "Post author was already rejected and notified."
+msgstr ""
+
